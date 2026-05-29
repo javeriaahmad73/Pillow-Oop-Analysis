@@ -30,6 +30,8 @@ Use the following command:
 pip install pillow
 
   OOP Principles Analysis
+
+
 1. Classes and Objects
 Pillow defines discrete entities via specialized blueprints (Classes) that capture state and behavior, which are accessed through runtime instances (Objects). The Image class serves as the main blueprint containing attributes like mode and size, while img acts as the operational object.
 from PIL import Image
@@ -41,6 +43,8 @@ img = Image.open("photo.jpg")
 img.show()
 img.resize((300, 300))
 img.save("new_photo.jpg")
+
+
 2. Encapsulation
 Encapsulation wraps structural data and operational states safely inside class boundaries. The developer triggers simple public method routines while structural complexities, private variables, and memory pointer states remain completely hidden from external access.
 from PIL import Image
@@ -59,6 +63,8 @@ from PIL.PngImagePlugin import PngImageFile
 # PngImageFile acts as a child sub-class subclassed from ImageFile
 # This allows format plugins to share core stream parameters out-of-the-box
 print(issubclass(PngImageFile, ImageFile))  # Returns: True
+
+
 4. Polymorphism
 Polymorphism allows a single interface to execute dynamically tailored processes based on the target object's configuration. The global engine standardizes parsing with an identical file initialization call regardless of target format structures, dynamically producing the exact format plugin class under the hood.
 from PIL import Image
@@ -70,6 +76,8 @@ img_jpg = Image.open("b.jpg")  # Dynamically returns a JpegImageFile object inst
 # A single interface call alters execution based on the instance context
 for graphic in [img_png, img_jpg]:
     graphic.load()  # Polymorphic method call customized per format subclass
+
+
     5. Abstraction
 Abstraction acts to strip away intense mathematical overhead and algorithmic convolution details behind clean, descriptive commands. Multi-channel conversions and neighbor-pixel coordinate math are reduced to straightforward method calls, hiding complexity from the developer
 from PIL import Image, ImageFilter
