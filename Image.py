@@ -1,9 +1,9 @@
 
 # The Python Imaging Library.
 # $Id$
-#
+
 # the Image class wrapper
-#
+
 # partial release history:
 # 1995-09-09 fl   Created
 # 1996-03-11 fl   PIL release 0.0 (proof of concept)
