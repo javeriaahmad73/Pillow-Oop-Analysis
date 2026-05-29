@@ -294,7 +294,7 @@ def getmodebands(mode: str) -> int:
     return len(ImageMode.getmode(mode).bands)
 
 
-# --------------------------------------------------------------------
+
 # Helpers
 
 _initialized = 0
