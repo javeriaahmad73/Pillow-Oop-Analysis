@@ -173,7 +173,7 @@ if hasattr(core, "DEFAULT_STRATEGY"):
     FIXED = core.FIXED
 
 
-# --------------------------------------------------------------------
+
 # Registries
 
 TYPE_CHECKING = False
