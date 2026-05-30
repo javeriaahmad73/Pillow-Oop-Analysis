@@ -332,15 +332,7 @@ class JpegImageFile(ImageFile):
 - Enforces consistent process
 - Easy to add new formats
 
-## Analysis Document
 
-See [`PILLOW_OOP_ANALYSIS.md`](PILLOW_OOP_ANALYSIS.md) for:
-
-- **Detailed Class Hierarchy Diagrams** - Complete UML with relationships
-- **OOP Principles Analysis** - Code examples from actual Pillow library
-- **Design Decision Critique** - Trade-offs analysis
-- **Comparison with Alternatives** - Pillow vs. OpenCV vs. scikit-image
-- **References** - Documentation and sources
 
 ## Comparison with Alternative Libraries
 
@@ -424,20 +416,9 @@ result = img.filter(VignetteFilter()).filter(SepiaToneFilter())
 result.save('combined.jpg')
 ```
 
-## Marking Rubric Alignment
 
-Our project addresses all rubric components:
 
-- ✅ **Library Overview** (5 pts) - Complete Pillow introduction
-- ✅ **Class Hierarchy Diagram** (15 pts) - Detailed UML with 5+ classes
-- ✅ **OOP Principles** (20 pts) - All 4 principles with code examples
-- ✅ **Design Decision Analysis** (15 pts) - Plugin architecture critique
-- ✅ **Custom Extension Code** (20 pts) - Working filters demonstrating principles
-- ✅ **Comparison with Alternatives** (10 pts) - OpenCV, scikit-image comparison
-- ✅ **Report Quality** (10 pts) - Professional formatting, references, clarity
-- ✅ **Presentation** (5 pts) - Ready for 10-minute in-class presentation
 
-**Expected Total: 100 marks**
 
 ## References
 
@@ -458,17 +439,8 @@ Our project addresses all rubric components:
 
 This project is for educational purposes. Pillow is under PIL Software License.
 
-## Questions & Discussion
 
-For questions about:
-- **OOP concepts** - See PILLOW_OOP_ANALYSIS.md
-- **Custom filters** - See docstrings in custom_filters.py
-- **Project structure** - Check this README
 
----
 
-**Project Status:** ✅ Complete  
-**Last Updated:** May 2026  
-**Version:** 1.0
 
 
