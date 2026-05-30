@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# Fix encoding issues in PILLOW_OOP_ANALYSIS.md
+
 
 import re
 
