@@ -13,12 +13,6 @@ This project provides an in-depth analysis of how professional Python developers
 - ✅ Custom extensions with working code
 - ✅ Comparison with alternative libraries
 
-## Group Members
-
-- **Student 1:** [Name] (ID: [ID])
-- **Student 2:** [Name] (ID: [ID])
-- **Student 3:** [Name] (ID: [ID])
-
 ## Project Structure
 
 ```
@@ -477,8 +471,4 @@ For questions about:
 **Last Updated:** May 2026  
 **Version:** 1.0
 
-**Submitted by:** [Group Names]  
-**Course:** Object-Oriented Programming - BS Data Science  
-**Semester:** 2nd Semester  
-**Instructor:** [Instructor Name]
 
